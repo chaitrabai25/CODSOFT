@@ -1,0 +1,5 @@
+import random
+letters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890#$%!&"
+len=int(input("enter the lenth:")) 
+password="".join(random.sample(letters,len)) 
+print("Genrated password :",password)
